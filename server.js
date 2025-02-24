@@ -6,7 +6,7 @@ const app = express();
 const server = http.createServer(app);
 const io = socketIo(server);
 
-let rooms = {}; // Almacena el estado de las partidas
+let rooms = {}; 
 
 app.use(express.static('public'));
 
